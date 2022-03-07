@@ -60,7 +60,7 @@ int main ()
 
   w = 1 ; h = 1 ;
 
-  printf("enter name of xwd file\n") ;
+  printf("enter moon.xwd or clock.xwd for texture\n") ;
   scanf("%s",nameA) ;
   idA = init_xwd_map_from_file (nameA) ;// returns -1 on error, 1 if ok
   if (idA == -1) { printf("failure\n") ;  exit(0) ; }
